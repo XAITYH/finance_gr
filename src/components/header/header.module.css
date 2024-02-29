@@ -1,0 +1,30 @@
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 57px;
+	padding: 23px 43px;
+	box-shadow: -6px 6px 8px 0px rgba(0, 0, 0, 0.35);
+	background: linear-gradient(180deg, rgb(253, 181, 20), rgb(225, 97, 39) 100%);
+}
+
+.title {
+	color: rgb(255, 255, 255);
+	font-size: 25px;
+	font-weight: 700;
+	line-height: 44px;
+}
+
+.links {
+	display: flex;
+	justify-content: space-between;
+	width: 330px;
+}
+
+.links a {
+	text-decoration: none;
+	color: rgb(255, 255, 255);
+	font-size: 25px;
+	font-weight: 700;
+	line-height: 44px;
+}
