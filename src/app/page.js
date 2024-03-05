@@ -1,6 +1,5 @@
-import Image from 'next/image';
 import { Header } from '@/components/header/header';
-import StartPage from '@/components/start-page/start-page';
+import { StartPage } from '@/components/start-page/start-page';
 
 export default function Home() {
 	return (

@@ -1,8 +1,9 @@
 import React from 'react';
+import Link from 'next/link';
 import { CustomButton } from '../button/button';
 import styles from './start-page.module.css';
 
-const StartPage = () => {
+export const StartPage = () => {
 	return (
 		<div className={styles.start_content}>
 			<h2 className={styles.start_title}>
@@ -27,9 +28,11 @@ const StartPage = () => {
 					Мотивация на высокооплачиваемые профессии
 				</p>
 			</div>
-			<CustomButton>Начать опрос</CustomButton>
+			<CustomButton>
+				<Link className={styles.link} href='/questions'>
+					Начать опрос
+				</Link>
+			</CustomButton>
 		</div>
 	);
 };
-
-export default StartPage;

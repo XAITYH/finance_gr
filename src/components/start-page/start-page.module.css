@@ -18,7 +18,6 @@
 	font-size: 22px;
 	font-weight: 400;
 	line-height: 32px;
-	background: rgba(0, 0, 0, 0.05);
 }
 
 .reason_item {
@@ -37,4 +36,9 @@
 	height: 50px;
 	border: 1px solid #000;
 	border-radius: 50%;
+}
+
+.link {
+	color: #fff;
+	text-decoration: none;
 }
