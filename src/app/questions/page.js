@@ -1,14 +1,18 @@
 import React from 'react';
 import { ProgressBar } from '@/components/progress-bar/progress-bar';
+import { QuestionTab } from '@/components/question-tab/question-tab';
+import { Question } from '@/components/question/question';
+import { Footer } from '@/components/footer-nav/footer-nav';
 
-export default function Question() {
+export default function FullQuestion() {
 	return (
 		<>
-			<header></header>
+			<header><Question /></header>
 			<main>
+				<QuestionTab />
 				<ProgressBar />
 			</main>
-			<footer></footer>
+			<footer><Footer /></footer>
 		</>
 	);
 }

@@ -1,15 +1,31 @@
+.barContainer {
+	display: flex;
+	justify-content: center;
+}
+
 .progress_bar {
 	height: 24px;
-	width: 360px;
+	width: 1000px;
 	border-radius: 10px;
 	background-color: lightblue;
 	margin: 50px;
+	position: relative;
+	top: 7rem;
 }
-.progress_bar > div {
-	width: 0%;
+.progress {
+	width: 5%;
 	height: 100%;
 	border-radius: 10px;
 	background-image: linear-gradient(to right, lightskyblue, blue);
-	background-size: 360px 100%;
+	background-size: 560px 100%;
 	transition: width 200ms;
+}
+
+.progress_number {
+	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+  	color: #000;
+	font-weight: bold;
 }
