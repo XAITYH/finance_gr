@@ -1,26 +1,21 @@
 .footerContainer {
     font-weight: bold;
+    display: flex;
+    height: 100px;
+    width: 100px;
+    justify-content: center;
 }
 
 .checkAnswer {
-    position: absolute;
-    top: 51rem;
-    left: 17rem;
     cursor: pointer;
 }
 
 .prevQuestion {
-    position: absolute;
-    top: 51rem;
-    right: 31rem;
     color: rgb(136, 136, 136);
     cursor: pointer;
 }
 
 .nextQuestion {
-    position: absolute;
-    top: 51rem;
-    right: 16rem;
     cursor: pointer;
 }
 

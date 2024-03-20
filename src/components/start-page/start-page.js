@@ -28,11 +28,11 @@ export const StartPage = () => {
 					Мотивация на высокооплачиваемые профессии
 				</p>
 			</div>
-			<CustomButton>
-				<Link className={styles.link} href='/questions'>
+			<Link className={styles.link} href='/questions'>
+				<CustomButton>
 					Начать опрос
-				</Link>
-			</CustomButton>
+				</CustomButton>
+			</Link>
 		</div>
 	);
 };

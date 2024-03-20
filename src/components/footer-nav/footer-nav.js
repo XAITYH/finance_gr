@@ -1,12 +1,12 @@
 import React from "react";
 import styles from "./footer-nav.module.css"
 
-export const Footer = () => {
+export const FooterNav = () => {
     return (
         <div className={styles.footerContainer}>
-            <h2 className={styles.checkAnswer}>Проверить</h2>
-            <h3 className={styles.prevQuestion}>-Предыдущий вопрос</h3>
-            <h3 className={styles.nextQuestion}>Следующий вопрос-</h3>
+            <a className={styles.checkAnswer}>Проверить</a>
+            <a className={styles.prevQuestion}>-Предыдущий вопрос</a>
+            <a className={styles.nextQuestion}>Следующий вопрос-</a>
         </div>
     );
 };

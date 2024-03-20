@@ -34,3 +34,5 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+src/components/footer-nav/footer-nav.js
+src/components/footer-nav/footer-nav.module.css
