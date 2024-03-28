@@ -9,7 +9,7 @@ export const Header = () => {
 				<h1 className={styles.title}>Финансовая грамотность</h1>
 				<div className={styles.links}>
 					<Link href='/loginPage'>Вход</Link>
-					<Link href='/'>Регистрация</Link>
+					<Link href='/registrationPage'>Регистрация</Link>
 				</div>
 			</header>
 		</>

@@ -1,5 +1,4 @@
 .questionTab {
-    position: absolute;
     width: 1400px;
     height: 800px;
     background-color: #FEFBF6;
@@ -7,6 +6,9 @@
     border-radius: 1%;
     padding: 10px;
     margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .answers {
@@ -22,7 +24,6 @@
     border-radius: 40px;
     width: 520px;
     height: 260px;
-    position: relative;
     top: 9rem;
     cursor: pointer;
     font-weight: bold;

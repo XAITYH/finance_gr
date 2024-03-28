@@ -6,6 +6,7 @@ import { CustomButton } from '../button/button';
 export default function Login() {
     return (
         <div className={styles.loginWindow}>
+            <a href='/' className={styles.exit}>X</a>
             <h1 className={styles.enter}>Вход</h1>
             <form className={styles.form}>
                 <label for="nickname" className={styles.NameItem}>Имя пользователя</label>
@@ -14,7 +15,7 @@ export default function Login() {
                     <input className={styles.fillItem} type="email" name="email" placeholder="Ваш E-mail"/>
                 <label for="password" className={styles.NameItem}>Пароль</label>
                     <input className={styles.fillItem} type="password" name="password" placeholder="Ваш пароль"/>
-                <h2 className={styles.welcome}>Добро пожаловать!</h2>
+                <h2 className={styles.welcome}>Снова здравствуй!</h2>
                 <Link className={styles.confirm} href='/'>
             <CustomButton>
 					Подтвердить
