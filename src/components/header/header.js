@@ -8,8 +8,8 @@ export const Header = () => {
 			<header className={styles.header}>
 				<h1 className={styles.title}>Финансовая грамотность</h1>
 				<div className={styles.links}>
-					<Link href='/'>Вход</Link>
-					<Link href='/'>Регистрация</Link>
+					<Link href='/loginPage'>Вход</Link>
+					<Link href='/registrationPage'>Регистрация</Link>
 				</div>
 			</header>
 		</>

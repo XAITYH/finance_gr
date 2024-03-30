@@ -1,0 +1,70 @@
+.loginWindow {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 920px;
+    margin: 10px auto;
+    width: 800px;
+    border: none;
+    border-radius: 20px;
+    background: linear-gradient(#F7CA80, #ef3535c4);
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+    font-weight: bold;
+}
+
+.form {
+    font-size: 30px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.exit {
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 40px;
+    align-self: flex-end;
+    margin-right: 5px;
+}
+
+.exit:hover {
+    color: red;
+}
+
+.enter {
+    font-size: 50px;
+    margin-top: 0;
+    justify-self: flex-start;
+}
+
+.fillItem {
+    border-radius: 10px;
+    border-color: #F7CA80;
+    width: 780px;
+    height: 40px;
+    margin-bottom: 40px;
+    margin-left: 5px
+}
+
+.NameItem {
+    margin-left: 5px;
+}
+
+.welcome {
+    color: rgba(255, 255, 255, 0.76);
+    align-self: center;
+}
+
+.confirm {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    color: white;
+    text-decoration: none;
+    margin: 10px 5px;
+}
+
+.fillItem:focus-visible {
+    outline: none;
+}
