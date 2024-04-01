@@ -1,20 +1,23 @@
 .questionTab {
     width: 1400px;
-    height: 800px;
     background-color: #FEFBF6;
     border: solid 2px black;
     border-radius: 1%;
-    padding: 10px;
-    margin-top: 3rem;
+    padding: 1px 5px;
+    margin-top: 30px;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
 }
+
+.header {
+    margin-bottom: 10px;
+}  
 
 .answers {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
 }
 
 .answer {
@@ -32,6 +35,11 @@
 }
 
 .answer:hover {
+    background: #FFB04E;
+}
+
+.answer.clicked {
+    list-style-type: disc;
     background: #FFB04E;
 }
 

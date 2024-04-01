@@ -5,8 +5,8 @@ export const FooterNav = () => {
     return (
         <div className={styles.footerContainer}>
             <a className={styles.checkAnswer}>Проверить</a>
-            <a className={styles.prevQuestion}>-Предыдущий вопрос</a>
-            <a className={styles.nextQuestion}>Следующий вопрос-</a>
+            <a className={styles.prevQuestion}>← Предыдущий вопрос</a>
+            <a className={styles.nextQuestion}>Следующий вопрос →</a>
         </div>
     );
 };

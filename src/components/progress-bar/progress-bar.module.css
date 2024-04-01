@@ -8,9 +8,7 @@
 	width: 1000px;
 	border-radius: 10px;
 	background-color: lightblue;
-	margin: 50px;
-	position: relative;
-	top: 7rem;
+	margin: 15px;
 }
 .progress {
 	width: 5%;
@@ -22,10 +20,10 @@
 }
 
 .progress_number {
-	position: absolute;
-  	top: 50%;
-  	left: 50%;
-  	transform: translate(-50%, -50%);
   	color: #000;
 	font-weight: bold;
+	display: flex;
+	justify-content: center;
+	position: relative;
+	bottom: 20px;
 }

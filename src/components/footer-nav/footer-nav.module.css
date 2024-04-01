@@ -1,8 +1,13 @@
 .footerContainer {
     font-weight: bold;
     display: flex;
-    height: 100px;
-    width: 100px;
+    align-items: flex-end;
+    justify-content: space-between;
+    font-size: 20px;
+    height: 80px;
+    margin-bottom: 6px;
+    margin-right: 5px;
+    margin-left: 5px;
 }
 
 .checkAnswer {
@@ -12,6 +17,8 @@
 .prevQuestion {
     color: rgb(136, 136, 136);
     cursor: pointer;
+    margin-left: auto;
+    margin-right: 30px;
 }
 
 .nextQuestion {
