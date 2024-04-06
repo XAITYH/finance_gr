@@ -1,0 +1,14 @@
+.wrapper {
+    display: flex;
+    width: 1400px;
+    margin: 0 auto;
+    background: url('../../components/landing/images/Circles.png') 100% no-repeat;
+    background-position: 175px 59%;
+    background-color: #f8f8f8;
+    height: 1000px;
+}
+
+.objects {
+    width: 1160px;
+    margin: 0 auto;
+}

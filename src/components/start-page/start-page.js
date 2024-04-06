@@ -33,6 +33,7 @@ export const StartPage = () => {
 					Начать опрос
 				</CustomButton>
 			</Link>
+			<a href='/landing-page' className={styles.landing}>Лэндинг</a>
 		</div>
 	);
 };

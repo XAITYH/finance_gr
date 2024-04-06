@@ -2,30 +2,32 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 920px;
-    margin: 10px auto;
-    width: 800px;
+    height: 595px;
+    margin: 5px auto;
+    width: 650px;
     border: none;
     border-radius: 20px;
     background: linear-gradient(#F7CA80, #ef3535c4);
     box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
-    font-weight: bold;
 }
 
 .form {
-    font-size: 30px;
-    flex-grow: 1;
+    font-size: 20px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: center;
+    width: 650px;
+    height: 490px;
 }
 
 .exit {
     text-decoration: none;
     cursor: pointer;
-    font-size: 40px;
+    font-size: 30px;
     align-self: flex-end;
-    margin-right: 5px;
+    margin-right: 7px;
+    margin-top: 2px;
 }
 
 .exit:hover {
@@ -33,36 +35,36 @@
 }
 
 .enter {
-    font-size: 50px;
+    font-size: 33px;
     margin-top: 0;
     justify-self: flex-start;
+}
+
+.NameItem {
+    align-self: flex-start;
+    margin-left: 24px;
 }
 
 .fillItem {
     border-radius: 10px;
     border-color: #F7CA80;
-    width: 780px;
-    height: 40px;
-    margin-bottom: 40px;
-    margin-left: 5px
-}
-
-.NameItem {
-    margin-left: 5px;
+    width: 600px;
+    height: 30px;
+    margin-bottom: 25px;
 }
 
 .welcome {
     color: rgba(255, 255, 255, 0.76);
     align-self: center;
+    font-size: 33px;
+    margin-bottom: 5px;
 }
 
 .confirm {
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
+    align-self: flex-end;
     color: white;
     text-decoration: none;
-    margin: 10px 5px;
+    margin-right: 2px;
 }
 
 .fillItem:focus-visible {

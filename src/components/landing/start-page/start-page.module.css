@@ -1,0 +1,67 @@
+.startPage {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.programming {
+    width: 390px;
+    height: 408px;
+    order: 1;
+    margin-top: 61px;
+    position: relative;
+    left: 65px;
+    bottom: 5px;
+}
+
+.texts {
+    display: flex;
+    flex-direction: column;
+}
+
+.schoolPhraze {
+    width: 680px;
+    height: 140px;
+    font-size: 46px;
+    line-height: 46px;
+    margin-top: 70px;
+    padding-bottom: 77px;
+    color: #22253B;
+}
+
+.testParagraph {
+    border-top: solid 1px #DEDEDE;
+    width: 361px;
+    height: 46px;
+    font-size: 16px;
+    padding-top: 14px;
+    line-height: 23px;   
+    color: #22253B;
+    padding-bottom: 2px;
+}
+
+.testButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 82px;
+    background-color: #F15525;
+    color: rgba(255, 255, 255, 0.295);
+    width: 321px;
+    height: 70px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.testButton:hover {
+    color: white;
+}
+
+.testButtonText {
+    width: 200px;
+}
+
+.arrowUp {
+    padding-left: 10px;
+    width: 19px;
+}
