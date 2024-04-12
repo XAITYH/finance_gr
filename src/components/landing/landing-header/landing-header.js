@@ -16,10 +16,10 @@ export default function LandingHeader() {
                 <li className={styles.linksLi}><a className={styles.links}>Контакты</a></li>
             </ul>
             <div className={styles.buttons}>
-                <Link href='/loginPage'>
+                <Link href='/registrationPage' className={styles.registrationLink}>
                     <button className={styles.registrationButton}>Регистрация</button>
                 </Link>
-                <Link href='/registrationPage' >
+                <Link href='/loginPage'>
                     <button className={styles.loginButton}><Image src={arrow} className={styles.arrow}/> Войти</button>
                 </Link>
             </div>

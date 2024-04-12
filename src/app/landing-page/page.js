@@ -2,8 +2,7 @@ import React from "react";
 import styles from './page.module.css'
 import LandingHeader from "@/components/landing/landing-header/landing-header";
 import LandingStartPage from "@/components/landing/start-page/landing-start-page";
-import Image from "next/image";
-import circles from "@/components/landing/images/Circles.png"
+import LandingKnowledge from "@/components/landing/landing-knowledge/landing-knowledge";
 
 export default function Landing () {
     return (
@@ -12,6 +11,7 @@ export default function Landing () {
                 <LandingHeader />
                 <LandingStartPage />
             </div>
+            <LandingKnowledge />
         </div>
     )
 }

@@ -9,8 +9,8 @@
     order: 1;
     margin-top: 61px;
     position: relative;
-    left: 65px;
-    bottom: 5px;
+    left: 81px;
+    bottom: -1px;
 }
 
 .texts {
@@ -24,8 +24,9 @@
     font-size: 46px;
     line-height: 46px;
     margin-top: 70px;
-    padding-bottom: 77px;
+    padding-bottom: 30px;
     color: #22253B;
+    quotes: """ """;
 }
 
 .testParagraph {

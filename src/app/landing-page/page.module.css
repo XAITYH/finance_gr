@@ -1,11 +1,12 @@
 .wrapper {
     display: flex;
+    flex-direction: column;
     width: 1400px;
     margin: 0 auto;
     background: url('../../components/landing/images/Circles.png') 100% no-repeat;
-    background-position: 175px 59%;
+    background-position: 191px -590px;
     background-color: #f8f8f8;
-    height: 1000px;
+    box-shadow: 0 0 30px rgb(0 0 0 / 30%);
 }
 
 .objects {
