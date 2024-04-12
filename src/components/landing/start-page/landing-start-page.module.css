@@ -52,6 +52,7 @@
     height: 70px;
     cursor: pointer;
     font-size: 20px;
+    transition: 0.2s;
 }
 
 .testButton:hover {

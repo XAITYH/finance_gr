@@ -14,7 +14,7 @@ export default function LandingStartPage() {
                 </h1>
                 <p className={styles.testParagraph}>Пройдите тестирование, чтобы получить доступ к бесплатным вводным урокам</p>
                 <button className={styles.testButton}>
-                   <span className={styles.testButtonText}> Пройти тестирование </span>
+                    <span className={styles.testButtonText}> Пройти тестирование </span>
                     <Image src={arrowUp} className={styles.arrowUp} alt="arrow-up-png"/>
                 </button>
             </div>
