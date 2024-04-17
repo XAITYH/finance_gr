@@ -1,11 +1,9 @@
-import { Header } from '@/widgets/header/header';
-import { StartPage } from '@/components/start-page/start-page';
+import Landing from './landing-page/page';
 
 export default function Home() {
 	return (
 		<main>
-			<Header />
-			<StartPage />
+			<Landing />
 		</main>
 	);
 }
