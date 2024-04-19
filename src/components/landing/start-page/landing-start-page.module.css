@@ -47,16 +47,18 @@
 	border: none;
 	border-radius: 82px;
 	background-color: #f15525;
-	color: rgba(255, 255, 255, 0.295);
+	color: #fff;
 	width: 321px;
 	height: 70px;
 	cursor: pointer;
 	font-size: 20px;
-	transition: 0.2s;
+	transition: 0.3s;
+	text-decoration: none;
 }
 
 .testButton:hover {
-	color: white;
+	background-color: #38BFF2;
+	transform: scale(1.1);
 }
 
 .arrowUp {

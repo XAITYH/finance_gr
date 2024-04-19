@@ -6,7 +6,7 @@
     background: url(../images/SecondCircles.png) 100% no-repeat;
     background-position: -691px -1591px;
     margin-top: -100px;
-    margin-bottom: 86px;
+    padding-bottom: 86px;
 }
 
 /* ed = education */
@@ -19,11 +19,15 @@
     margin-top: 112px;
 }
 
+/* Our Title */
+
 .howWeTeach {
     font-size: 46px;
     margin-bottom: 6px;
     font-weight: 100;
 }
+
+/* Description */
 
 .ourProgram {
     width: 650px;
@@ -31,57 +35,9 @@
     text-align: center;
 }
 
-.video {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-}
-
-.macbook {
-    z-index: 1;
-    margin-top: 0;
-    margin-bottom: 29px;
-}
-
-.macbookShadow {
-    z-index: 0;
-    margin-top: -600px;
-}
-
-.playButton {
-    z-index: 1;
-    border: none;
-    border-radius: 100%;
-    background: none;
-    margin-top: -490px;
-}
-
-.playButtonImage {
-    width: 122px;
-    height: 122px;
-    border-radius: 100%;
-    cursor: pointer;
-    transition: box-shadow 0.3s;
-}
-
-.playButtonImage:hover {
-    box-shadow: 0 0 100px #F15525;
-}
-
-.lookVideo {
-    color: white;
-    z-index: 1;
-    font-weight: 20px;
-    width: 117px;
-    text-align: center;
-    font-weight: 100;
-    margin-top: 0;
-    cursor: default;
-}
+/* Top 3 pluses */
 
 .top3 {
-    z-index: 1;
     display: flex;
     justify-content: space-around;
     width: 1160px;

@@ -20,7 +20,7 @@ export default function LandingStartPage() {
 				<p className={styles.testParagraph}>
 					Пройдите тестирование, чтобы получить доступ к вводным урокам
 				</p>
-				<Link href={'/questions'} className={styles.testButton}>
+				<Link href={'/quiz-page'} className={styles.testButton}>
 					Пройти тестирование
 					<Image src={arrowUp} className={styles.arrowUp} alt='arrow-up' />
 				</Link>

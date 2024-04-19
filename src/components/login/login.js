@@ -1,7 +1,8 @@
 import React from "react";
 import styles from "./login.module.css"
 import Link from 'next/link';
-import { CustomButton } from '../button/button';
+import LandingButton from "../landing/landing-button/landing-button";
+
 
 export default function Login() {
     return (
@@ -17,9 +18,7 @@ export default function Login() {
                     <input className={styles.fillItem} style={{fontSize: 15}} type="password" name="password" placeholder="Ваш пароль"/>
                 <h2 className={styles.welcome}>Снова здравствуй!</h2>
                 <Link className={styles.confirm} href='/profilePage'>
-            <CustomButton>
-					Подтвердить
-			</CustomButton>
+                <LandingButton width={200} height={80} fontSize={20}>Подтвердить</LandingButton>
                 </Link>
             </form>
         </div>

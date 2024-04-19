@@ -114,7 +114,7 @@
 }
 
 .links:hover {
-    opacity: 60%;
+    color: #F15525;
 }
 
 .contact_info {
@@ -145,6 +145,7 @@
     justify-content: space-between;
     color: #8E8E8E;
     margin: 10px auto;
+    cursor: default;
 }
 
 .user_agreement {
