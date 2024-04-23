@@ -14,12 +14,6 @@
 
 .logo {
     width: 53px;
-    opacity: 10%;
-    transition: 0.2s;
-}
-
-.logo:hover {
-    opacity: 100%;
 }
 
 .linksUl {
@@ -39,7 +33,7 @@
 }
 
 .links:hover {
-    opacity: 60%;
+    color: #F15525;
 }
 
 .buttons {
@@ -66,7 +60,7 @@
 }
 
 .registrationButton:hover {
-    opacity: 60%;
+    color: #F15525;
 }
 
 .loginButton {
@@ -80,11 +74,12 @@
     width: 90px;
     height: 34px;
     cursor: pointer;
-    transition: 0.2s;
+    transition: 0.3s;
 }
 
 .loginButton:hover {
-    opacity: 60%;
+    background-color: #F15525;
+    transform: scale(1.05);
 }
 
 .arrow {

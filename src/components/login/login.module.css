@@ -7,7 +7,7 @@
     width: 650px;
     border: none;
     border-radius: 20px;
-    background: linear-gradient(#F7CA80, #ef3535c4);
+    background: linear-gradient(#3cd6f5, #4b8ff5);
     box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
 }
 
@@ -15,7 +15,6 @@
     font-size: 20px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     align-items: center;
     width: 650px;
     height: 490px;
@@ -35,9 +34,8 @@
 }
 
 .enter {
-    font-size: 33px;
+    font-size: 32px;
     margin-top: 0;
-    justify-self: flex-start;
 }
 
 .NameItem {
@@ -47,7 +45,7 @@
 
 .fillItem {
     border-radius: 10px;
-    border-color: #F7CA80;
+    border-color: #56e2ff;
     width: 600px;
     height: 30px;
     margin-bottom: 25px;
@@ -64,7 +62,8 @@
     align-self: flex-end;
     color: white;
     text-decoration: none;
-    margin-right: 2px;
+    margin-right: 8px;
+    margin-top: 78px;
 }
 
 .fillItem:focus-visible {

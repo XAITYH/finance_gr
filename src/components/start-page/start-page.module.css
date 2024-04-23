@@ -44,9 +44,8 @@
 }
 
 .landing {
-	cursor: pointer;
 	margin-top: 20px;
 	font-size: 24px;
 	width: 80px;
-	text-decoration: underline;
+	text-decoration: none;
 }

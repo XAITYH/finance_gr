@@ -2,6 +2,7 @@ import React from 'react';
 import Link from 'next/link';
 import { CustomButton } from '../button/button';
 import styles from './start-page.module.css';
+import LandingButton from '../landing/landing-button/landing-button';
 
 export const StartPage = () => {
 	return (
@@ -29,11 +30,8 @@ export const StartPage = () => {
 				</p>
 			</div>
 			<Link className={styles.link} href='/questions'>
-				<CustomButton>
-					Начать опрос
-				</CustomButton>
+				<LandingButton width={300} height={85} fontSize={20}>Начать опрос</LandingButton>
 			</Link>
-			<a href='/landing-page' className={styles.landing}>Лэндинг</a>
 		</div>
 	);
 };

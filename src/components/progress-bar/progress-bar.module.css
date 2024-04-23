@@ -5,7 +5,7 @@
 
 .progress_bar {
 	height: 24px;
-	width: 1000px;
+	width: 900px;
 	border-radius: 10px;
 	background-color: lightblue;
 	margin: 15px;
@@ -26,4 +26,5 @@
 	justify-content: center;
 	position: relative;
 	bottom: 20px;
+	cursor: default;
 }

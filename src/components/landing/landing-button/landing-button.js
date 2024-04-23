@@ -4,12 +4,14 @@ import Image from "next/image";
 import arrowUp from "../icons/arrowUp.svg"
 
 export default function LandingButton ({ width, height, fontSize=16, color='white', children }) {
+
     const buttonStyle = {
         height: height,
         width: width,
         fontSize: fontSize,
         color: color
     };
+
 	return (
 			<button
                 style={buttonStyle}
