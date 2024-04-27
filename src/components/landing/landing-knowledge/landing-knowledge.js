@@ -11,7 +11,7 @@ import coin from '../icons/coin.svg';
 
 export default function LandingKnowledge() {
 	return (
-		<div className={styles.knowledgeWrapper}>
+		<div id='knowledge' className={styles.knowledgeWrapper}>
 			<div className={styles.objects}>
 				<h2 className={styles.whatKnowledge}>Какими знаниями вы овладеете:</h2>
 				<div className={styles.baseKnowledge}>
@@ -41,7 +41,7 @@ export default function LandingKnowledge() {
 						</p>
 					</div>
 				</div>
-				<h2 className={styles.ourEducation}>
+				<h2 id='advantages' className={styles.ourEducation}>
 					Обучение у нас – это удобно и результативно
 				</h2>
 				<div className={styles.advantagesTop}>

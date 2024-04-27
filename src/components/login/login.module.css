@@ -2,12 +2,12 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 595px;
+    height: 605px;
     margin: 5px auto;
     width: 650px;
     border: none;
     border-radius: 20px;
-    background: linear-gradient(#3cd6f5, #4b8ff5);
+    background: linear-gradient(#EAF2F5, rgb(250, 250, 250));
     box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
 }
 
@@ -17,7 +17,7 @@
     flex-direction: column;
     align-items: center;
     width: 650px;
-    height: 490px;
+    height: 500px;
 }
 
 .exit {
@@ -45,14 +45,14 @@
 
 .fillItem {
     border-radius: 10px;
-    border-color: #56e2ff;
     width: 600px;
-    height: 30px;
-    margin-bottom: 25px;
+    height: 25px;
+    margin-bottom: 35px;
+    border-color: #EAF2F5;
 }
 
 .welcome {
-    color: rgba(255, 255, 255, 0.76);
+    color: #00000041;
     align-self: center;
     font-size: 33px;
     margin-bottom: 5px;
