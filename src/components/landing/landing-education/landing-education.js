@@ -9,7 +9,7 @@ import LandingButton from '../landing-button/landing-button';
 
 export default function LandingEducation() {
 	return (
-		<div className={styles.educationWrapper}>
+		<div id='education' className={styles.educationWrapper}>
 			<div className={styles.edObjects}>
 				<h2 className={styles.howWeTeach}>Как у нас происходит обучение?</h2>
 				<p className={styles.ourProgram}>

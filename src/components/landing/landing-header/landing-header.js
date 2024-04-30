@@ -7,20 +7,28 @@ import Link from 'next/link';
 
 export default function LandingHeader() {
 	return (
-		<header className={styles.header}>
+		<header id='header' className={styles.header}>
 			<Image src={logo} className={styles.logo} alt='logotype' />
 			<ul className={styles.linksUl}>
 				<li className={styles.linksLi}>
-					<a className={styles.links}>Чему вы научитесь</a>
+					<Link className={styles.links} href='#knowledge'>
+						Чему вы научитесь
+					</Link>
 				</li>
 				<li className={styles.linksLi}>
-					<a className={styles.links}>Процесс обучения</a>
+					<Link className={styles.links} href='#education'>
+						Процесс обучения
+					</Link>
 				</li>
 				<li className={styles.linksLi}>
-					<a className={styles.links}>Стоимость</a>
+					<a className={styles.links} href='#advantages'>
+						Стоимость
+					</a>
 				</li>
 				<li className={styles.linksLi}>
-					<a className={styles.links}>Контакты</a>
+					<Link className={styles.links} href='#footer'>
+						Контакты
+					</Link>
 				</li>
 			</ul>
 			<div className={styles.buttons}>

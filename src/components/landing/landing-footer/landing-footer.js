@@ -12,7 +12,7 @@ import Link from 'next/link';
 
 export default function LandingFooter() {
 	return (
-		<footer className={styles.footer}>
+		<footer id='footer' className={styles.footer}>
 			<div className={styles.footerObjects}>
 				<div className={styles.warningContainer}>
 					<Image src={loudspeaker} alt='loudspeaker-image' />
@@ -53,16 +53,16 @@ export default function LandingFooter() {
 					</div>
 					<ul className={styles.linksUl}>
 						<li className={styles.linksLi}>
-							<a className={styles.links}>Чему вы научитесь</a>
+							<Link className={styles.links} href='#knowledge'>Чему вы научитесь</Link>
 						</li>
 						<li className={styles.linksLi}>
-							<a className={styles.links}>Процесс обучения</a>
+							<Link className={styles.links} href='#education'>Процесс обучения</Link>
 						</li>
 						<li className={styles.linksLi}>
-							<a className={styles.links}>Контакты</a>
+							<Link className={styles.links} href='#footer'>Контакты</Link>
 						</li>
 						<li className={styles.linksLi}>
-							<a className={styles.links}>Регистрация</a>
+							<Link className={styles.links} href='#header'>Регистрация</Link>
 						</li>
 					</ul>
 					<div className={styles.contact_info}>

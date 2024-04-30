@@ -30,6 +30,8 @@
 .links {
     cursor: pointer;
     transition: 0.2s;
+    color: #000;
+    text-decoration: none;
 }
 
 .links:hover {
