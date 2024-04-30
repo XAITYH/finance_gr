@@ -22,7 +22,7 @@ export default function LandingHeader() {
 				</li>
 				<li className={styles.linksLi}>
 					<a className={styles.links} href='#advantages'>
-						Стоимость
+						Преимущества
 					</a>
 				</li>
 				<li className={styles.linksLi}>
