@@ -67,14 +67,14 @@ export default function LandingFooter() {
 					</ul>
 					<div className={styles.contact_info}>
 						<Link href='/' className={styles.e_mail}>
-							info@ytyt.by
+							info@fincof.by
 						</Link>
 						<p className={styles.tel_number}>+375 99 999 99 99</p>
 						<p className={styles.organization}>Независимая организация</p>
 					</div>
 				</div>
 				<div className={styles.last_info}>
-					<p className={styles.copyright}>© 2024 ytyt — Все права защищены</p>
+					<p className={styles.copyright}>© 2024 FINCOF — Все права защищены</p>
 					<a className={styles.user_agreement}>Пользовательское соглашение</a>
 					<a className={styles.privacy_policy}>Политика конфиденциальности</a>
 				</div>
