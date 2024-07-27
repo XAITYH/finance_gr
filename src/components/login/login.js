@@ -3,7 +3,6 @@ import styles from "./login.module.css"
 import Link from 'next/link';
 import LandingButton from "../landing/landing-button/landing-button";
 
-
 export default function Login() {
     return (
         <div className={styles.loginWindow}>

@@ -2,6 +2,7 @@
   "name": "finance_gr",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -11,8 +12,10 @@
   "dependencies": {
     "@vercel/postgres": "^0.7.2",
     "bootstrap": "^5.3.3",
+    "dotenv": "^16.4.5",
     "next": "14.1.0",
     "next-auth": "^4.24.6",
+    "pg": "^8.11.5",
     "react": "^18",
     "react-bootstrap": "^2.10.1",
     "react-dom": "^18",
